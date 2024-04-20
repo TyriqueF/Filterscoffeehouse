@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters Coffeehouse</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="toggle-btn" class="bx bxs-sun"></div>
+
+        <div class="nav container">
+
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <div class="navbar">
+                <a href="#home" class="nav-link">Home<span></span></a>
+                <a href="#book" class="nav-link">Reservations<span></span></a>
+                <a href="#menu" class="nav-link">Menu<span></span></a>
+                <a href="#about" class="nav-link">About<span></span></a>
+                <a href="#reviews" class="nav-link">Reviews<span></span></a>
+            </div>
+
+            <div class="header-icons">
+                <a href="#"><i class='bx bxs-user'></i></a>
+                <a href="#"><i class='bx bxs-cart'></i></a>
+            </div>    
+
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="section">
+        <section class="home container" id="home">
+            <div class="home-text">
+                <h1>
+                    Mornings Are Brew-tal <br />
+                    Have Coffee
+                </h1>
+                <p>
+                    A popular, well-established coffeehouse serving you the finest coffee drinks within the Princes Town
+                    district. So what are you waiting for, your perfect coffee break awaits.
+                </p>
+                <a href="#" class="btn">
+                    <span>Order Now</span>
+                    <i class='bx bxs-hand-up'></i>
+                </a>
+            </div>
+
+            <img src="img/main page.png" alt="" class="home-img">
+        </section>
+    </section>
+
+    <section class="book container" id="book">
+        <img src="img/bookbg.png" alt="" class="book-img">
+        <div class="book-overlay"></div>
+        <div class="book-data">
+            <h2>
+                Brew your conversations <br />
+                around our coffee table now
+            </h2>
+            <form action="input-box">
+                <div class="input-box">
+                    <i class='bx bxs-phone-call'></i>
+                    <input type="tel" name="" placeholder="Your Number" id="">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-user-circle'></i>
+                    <input type="number" name="" placeholder="People" id="">
+                </div>
+                <a href="#" class="book-btn">Reserve Table</a>
+            </form>
+            <p>You will be contacted soon for confirmation of your booking.</p>
+        </div>
+    </section>
+
+    <section class="products container" id="menu">
+
+        <div class="heading">
+            <h2>Most Popular Products</h2>
+            <p>Check out our top selling drinks and popular products that Filters Coffeehouse have to offer.</p>
+        </div>
+
+        <div class="product-content">
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 1.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Hot Coffees</h2>
+                <div class="product-info">
+                    <span>TT$15.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 2.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Cold coffees</h2>
+                <div class="product-info">
+                    <span>TT$22.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 3.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Frappuccinos</h2>
+                <div class="product-info">
+                    <span>TT$33.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 4.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Iced Teas</h2>
+                <div class="product-info">
+                    <span>TT$36.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 5.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Refreshers</h2>
+                <div class="product-info">
+                    <span>TT$12.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+
+            <div class="product-box">
+                <i class='bx bx-heart heart-icon'></i>
+                <img src="img/Coffee Product 6.png" alt="" />
+                <p>4 Types Available</p>
+                <h2>Local Coffee Beans</h2>
+                <div class="product-info">
+                    <span>TT$150.00</span>
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>Coffee within the twin island of Trinidad & Tobago is of pristine quality and unrecognized
+                internationally due to low export quantites and local consumption.</p>
+            <p>Our main mission at Filters Coffeehouse is global dominance within the brewing business and to bring
+                awareness to the quality of coffee that is brewed in Trinidad and Tobago.</p>
+            <p>Filters hopes to bring joy, energy and production to the entire Caribbean population through our coffee.
+            </p>
+            <a href="#" class="btn"><span>Learn More</span></a>
+        </div>
+    </section>
+
+    <section class="review container" id="reviews">
+        <div class="heading">
+            <h2>Customer Reviews</h2>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Antwon Roosevolt.png" alt="">
+                        <h2>Antwon Roosevolt</h2>
+                        <span>Trust me, <br /> I wake up when I smell this coffeee.</span>
+                        <p>I love your coffee. It helps me make it through my day with no struggle. Your coffee gives me
+                            so
+                            much energy that I never feel tired while at the gym. Definitely recommended.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Dillon Reed.png" alt="">
+                        <h2>Dillon Reed</h2>
+                        <span>The satisfaction of drinking iced teas,<br /> the nostalgia hits you everytime.</span>
+                        <p>Your iced teas hits the spot. It's my favourite item on the menu, I highly recommend it to
+                            anyone
+                            who wants to try something new or to anyone who is a first-time customer.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Hailey Wright.png" alt="">
+                        <h2>Hailey Wright</h2>
+                        <span>Part of my skin routine, <br /> is drinking your Refreshers.</span>
+                        <p>10/10, I love the flavours, they are addicting. Each time I visit the Coffeehouse, I order
+                            nothing else besides a Refresher because it's a treat!</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Jacob Dlamini.png" alt="">
+                        <h2>Jacob Dlamini</h2>
+                        <span>Your new poster boy, <br /> for Filters Coffehouse's hot brewing coffee😅.</span>
+                        <p>Mannn, this coffee is worth every penny. It will have you going all day non-stop with extra
+                            energy to spare. P.s. try at your own risk.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Jinelle Johnson.png" alt="">
+                        <h2>Jinelle Johnson</h2>
+                        <span>Omg, <br /> just the right coffee to 'stir things up'.</span>
+                        <p>Definitely worth trying. Excellent service, top-quality coffee drinks, quickly served and
+                            very
+                            friendly. Filters Coffeehouse has everything that you dream a coffee shop would have. I even
+                            heard that they have a secret menu but you never heard it from me.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Matthew Gordon.png" alt="">
+                        <h2>Matthew Gordon</h2>
+                        <span>Stop what you're doing, <br /> try this coffee right now.</span>
+                        <p>A drink from Filters is needed to start the day. No ifs, no buts or no maybes. Trust me, this
+                            coffee tastes
+                            so good that even if I don't have any money, I'm still buying.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/Layla Sookdheo.png" alt="">
+                        <h2>Layla Sookdheo</h2>
+                        <span>This coffee, <br /> is a must! </span>
+                        <p>If you haven't tried any drinks from this place as yet, trust me, you're missing out on a
+                            once in a lifetime
+                            opportunity. The coffee is that special. I love this place, it's my new spot from now on.
+                            Expect to see me
+                            there every time I leave the house.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <section class ="footer container">
+        <div class="footer-box">
+            <a href="#" class="logo"><img src="img/logo 2.png" alt=""></a>
+            <div class="social">
+                <a href=""><i class='bx bxl-tiktok'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-facebook-circle' ></i></a>
+                <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>About</h3>
+            <a href="#">Our Story</a>
+            <a href="#">FAQ</a>
+            <a href="#">Careers</a>
+        </div>
+        <div class="footer-box">
+            <h3>Customer's Resources</h3>
+            <a href="#">Menu</a>
+            <a href="#">Location</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <a href="#">Payment Options</a>
+            <a href="#">Refunds & Exchanges</a>
+            <a href="#">Limitation Of Liability</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <a href=""><i class='bx bxs-map' ></i>Naparima Mayaro Road, Princes Town</a>
+            <a href=""><i class='bx bxs-phone' ></i>+1 868 590 6423</a>
+            <a href=""><i class='bx bxs-envelope' ></i>filterscoffehouseco@shop.com</a>
+        </div>
+        
+    </section>
+
+    <p class="copyright">&#169; Filters Coffeehouse All Rights Deserved</p>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
